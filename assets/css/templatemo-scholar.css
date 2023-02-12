@@ -658,7 +658,7 @@ Header Style
 @media (max-width: 767px) {
   .background-header .main-nav .nav,
   .header-area .main-nav .nav {
-    background-color: #f1f0fe;
+    background-color: #CECDD9;
   }
   .background-header .main-nav .nav li a,
   .header-area .main-nav .nav li a {
@@ -667,13 +667,13 @@ Header Style
     font-weight: 400;
     font-size: x-large;
     color: #1e1e1e;
-    background-color: #f1f0fe;
+    background-color: #CECDD9;
      border-radius: 0px 0px 25px 25px;
   }
   .background-header .main-nav .nav li,
   .header-area .main-nav .nav li {
     border-top: 1px solid #ddd;
-    background-color: #f1f0fe;
+    background-color: #CECDD9;
     height: 50px;
     border-radius: 0px 0px 25px 25px;
   }
@@ -927,7 +927,7 @@ Services Style
 .services .service-item .main-content {
   border-radius: 25px;
   padding: 80px 30px 50px 30px;
-  background-color: #f1f0fe;
+  background-color: #CECDD9;
   margin-bottom: 30px;
   margin-right: 80px;
   transition: all .4s;
@@ -966,7 +966,7 @@ About Style
   z-index: -1;
   width: 84%;
   height: 100%;
-  background-color: #f1f0fe;
+  background-color: #CECDD9;
   content: '';
   border-top-left-radius: 500px;
   border-bottom-left-radius: 500px;
@@ -1058,7 +1058,7 @@ Courses Style
 }
 
 .event_filter {
-  background-color: #f1f0fe;
+  background-color: #CECDD9;
   border-radius: 50px;
   padding: 15px 40px;
   list-style: none;
@@ -1113,7 +1113,7 @@ Courses Style
   position: absolute;
   right: -30px;
   top: -50px;
-  background-color: rgba(122, 106, 216, 0.95);
+  background-color: #39c0c2f2;
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -1138,7 +1138,7 @@ Courses Style
 }
 
 .events_item {
-  background-color: #f1f0fe;
+  background-color: #CECDD9;
   border-radius: 25px;
   margin-bottom: 30px;
   position: relative;
@@ -1266,7 +1266,7 @@ Team Style
 .team-member .main-content {
   border-radius: 25px;
   padding: 140px 30px 40px 30px;
-  background-color: #f1f0fe;
+  background-color: #CECDD9;
   text-align: center;
 }
 
@@ -1326,7 +1326,7 @@ Testimonials Style
   z-index: -1;
   width: 65%;
   height: 100%;
-  background-color: #f1f0fe;
+  background-color: #cecdd9;
   content: '';
   border-top-left-radius: 500px;
   border-bottom-left-radius: 500px;
@@ -1343,7 +1343,7 @@ Testimonials Style
 }
 
 .testimonials .item {
-  background-color: #F67B3D;
+  background-color: #F78D58;
   border-radius: 25px;
   padding: 80px;
 }
@@ -1424,7 +1424,7 @@ Events Style
 }
 
 .events .item {
-  background-color: #f1f0fe;
+  background-color: #CECDD9;
   border-radius: 25px;
   position: relative;
   padding: 40px;
@@ -1524,7 +1524,7 @@ Contact Style
   z-index: -1;
   width: 65%;
   height: 100%;
-  background-color: #f1f0fe;
+  background-color: #CECDD9;
   content: '';
   border-top-right-radius: 500px;
   border-bottom-right-radius: 500px;
@@ -1731,7 +1731,7 @@ Contact Style
 Footer Style
 --------------------------------------------- 
 */
-
+/* 
 footer {
   margin-top: 150px;
   position: relative;
@@ -1753,7 +1753,36 @@ footer p a {
   transition: all .3s;
   position: relative;
   z-index: 3;
+} */
+
+footer {
+  background-color: map-get($colores , "color-principal-normal");
+  background-image: url(../images/stacked-waves-haikei.svg);
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+
+
+.whatsapp {
+
+  display: flex;
+  overflow: hidden;
+  cursor: pointer;
+  align-items: flex-end;
+  position: fixed;
+  justify-content: right;
+  bottom: 1%;
+  right: 1%;
+
+  & img {
+
+      width: 55px;
+      height: 55px;
+  }
+}
+
 
 footer p a:hover {
   opacity: 0.75;
@@ -1969,7 +1998,7 @@ body {
     margin-right: 0px;
   }
   .contact-us .special-offer {
-    background-color: #f1f0fe;
+    background-color: #CECDD9;
     margin-bottom: 60px;
     padding: 34px 30px 34px 100px;
     width: 100%;
