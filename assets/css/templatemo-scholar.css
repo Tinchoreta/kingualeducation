@@ -379,6 +379,8 @@ Header Style
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
+  font-size:x-large;
+  font-weight: 500;
   z-index: 999;
 }
 
@@ -624,7 +626,7 @@ Header Style
 
 .background-header .main-nav .logo img {
   margin-top: 0px;
-  left: 0px;
+  left: 20px;
   padding: 0;
   width: 100px;
   height: 65px;
@@ -636,15 +638,14 @@ Header Style
     left: 50px;
 }
 
-
 .search-input{
-  padding: 0px 100px 20px;
+  padding: 0px 100px 10px;
 }
 
 .header-area .main-nav #search input {
   background-color: rgba(255, 255, 255, 0.10);
   height: 44px;
-  width: 450px;
+  width: 250px;
   border-radius: 23px;
   border: none;
   color: #FFFFFB;
@@ -664,6 +665,7 @@ Header Style
     line-height: 50px;
     height: 50px;
     font-weight: 400;
+    font-size: x-large;
     color: #1e1e1e;
     background-color: #f1f0fe;
      border-radius: 0px 0px 25px 25px;
@@ -1992,7 +1994,7 @@ body {
 
 @media (max-width: 1200px) {
   .header-area .main-nav #search input {
-    width: 200px;
+    width: 300px;
   }
   .header-area .main-nav .nav li.has-sub:after {
     right: 15px;
@@ -2000,4 +2002,48 @@ body {
   .fun-facts:before {
     width: 95%;
   }
+
+  .header-area .main-nav .nav li {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .header-area .main-nav .nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .background-header .main-nav .logo  {
+  margin-top: 10px;
+  left: 10px;
+}
+
+.background-header .main-nav .logo img {
+  margin-top: 0px;
+  left: 20px;
+  padding: 0;
+  width: 135px;
+  height: 65px;
+}
+
+  .background-header .main-nav .logo,
+  .background-header .main-nav #search {
+    margin-top: 10px;
+    left: 50px;
+}
+
+.search-input{
+  padding: 0px 30px 0px 100px;
+}
+
+.header-area .main-nav #search input {
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 44px;
+  width: 300px;
+  border-radius: 23px;
+  border: none;
+  color: #FFFFFB;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px;
+}
 }
