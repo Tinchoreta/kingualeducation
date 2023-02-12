@@ -107,6 +107,7 @@ p {
 img {
   width: 100%;
   overflow: hidden;
+
 }
 
 /* 
@@ -337,7 +338,7 @@ Header Style
 
 .background-header .main-nav .logo,
 .background-header .main-nav #search {
-  margin-top: 18px;
+  margin-top: 10px;
 }
 
 .header-area .main-nav #search {
@@ -394,7 +395,7 @@ Header Style
 
 .header-area .main-nav .nav li a {
   display: block;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-right: 20px;
   border-radius: 20px;
   font-weight: 300;
@@ -547,6 +548,65 @@ Header Style
   display:inline !important;
 }
 
+@media (max-width: 1600px) {
+
+  header .container {
+    max-width: 1400px;
+    padding: 0px 20px 20px;
+  }
+  .header-area .main-nav {
+    background: transparent;
+    display: flex
+  }
+
+  img {
+    width: 123px;
+    overflow: hidden;
+  
+  }
+
+  .header-area .main-nav .nav li {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .header-area .main-nav .nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .background-header .main-nav .logo  {
+  position: relative;
+  margin-top: 10px;
+  left: 10px;
+}
+
+.background-header .main-nav .logo img {
+  margin-top: 0px;
+  left: 0px;
+  padding: 0;
+  width: 123px;
+  height: 65px;
+}
+
+.search-input{
+  padding: 0px 150px 20px;
+}
+
+.header-area .main-nav #search input {
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 44px;
+  width: 450px;
+  border-radius: 23px;
+  border: none;
+  color: #FFFFFB;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 50px 0px;
+}
+
+
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 2px;
@@ -557,6 +617,41 @@ Header Style
     padding-right: 10px;
   }
 
+  .background-header .main-nav .logo  {
+  margin-top: 10px;
+  left: 10px;
+}
+
+.background-header .main-nav .logo img {
+  margin-top: 0px;
+  left: 0px;
+  padding: 0;
+  width: 100px;
+  height: 65px;
+}
+
+  .background-header .main-nav .logo,
+  .background-header .main-nav #search {
+    margin-top: 10px;
+    left: 50px;
+}
+
+
+.search-input{
+  padding: 0px 100px 20px;
+}
+
+.header-area .main-nav #search input {
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 44px;
+  width: 450px;
+  border-radius: 23px;
+  border: none;
+  color: #FFFFFB;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 50px 0px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1246,7 +1341,7 @@ Testimonials Style
 }
 
 .testimonials .item {
-  background-color: #0077B6;
+  background-color: #F67B3D;
   border-radius: 25px;
   padding: 80px;
 }
