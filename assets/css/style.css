@@ -563,7 +563,7 @@ Header Style
   }
 
   img {
-    width: 123px;
+    width: 100%x;
     overflow: hidden;
   
   }
@@ -898,43 +898,44 @@ Our Method Style
 --------------------------------------------- 
 */
 
-.ourMethod .service-item:hover .icon img {
+.ourMethod .ourMethod-item:hover .icon img {
   margin-top: -10px;
 }
 
-.ourMethod .service-item {
+.ourMethod .ourMethod-item {
   position: relative;
   margin-top: 95px;
 }
 
-.ourMethod .service-item .icon {
+.ourMethod .ourMethod-item .icon {
   width: 190px;
   height: 190px;
   display: inline-block;
   text-align: center;
   line-height: 190px;
-  background-color: #0077B6;
+  background-color: #F78D58;
   border-radius: 50%;
   position: absolute;
   right: 0;
   top: -95px;
 }
 
-.ourMethod .service-item .icon img {
+.ourMethod .ourMethod-item .icon img {
   max-width: 86px;
   transition: all .2s;
 }
 
-.ourMethod .service-item .main-content {
+.ourMethod .ourMethod-item .main-content {
   border-radius: 25px;
   padding: 80px 30px 50px 30px;
   background-color: #CECDD9;
   margin-bottom: 30px;
   margin-right: 80px;
+  min-width: 100%;
   transition: all .4s;
 }
 
-.ourMethod .service-item h4 {
+.ourMethod .ourMethod-item h4 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -942,7 +943,7 @@ Our Method Style
   transition: all .4s;
 }
 
-.ourMethod .service-item p {
+.ourMethod .ourMethod-item p {
   color: #4a4a4a;
   margin-bottom: 25px;
 }
@@ -1945,7 +1946,7 @@ body {
   .accordion {
     padding: 40px 25px 10px 25px;
   }
-  .ourMethod .service-item .icon {
+  .ourMethod .ourMethod-item .icon {
     width: 170px;
     height: 170px;
     line-height: 170px;
