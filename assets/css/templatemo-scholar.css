@@ -1778,6 +1778,7 @@ color:rgba(250, 250, 250, 0.95);
   justify-content: right;
   bottom: 1%;
   right: 1%;
+  z-index: 10000000;
 }
 
 .whatsapp img {
