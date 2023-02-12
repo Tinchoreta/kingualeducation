@@ -1553,7 +1553,7 @@ Contact Style
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #0077B6;
+  background-color: #ebeb1c;
   width: 80px;
   padding: 30px 8px;
   line-height: 25px;
@@ -1561,7 +1561,7 @@ Contact Style
   border-radius: 15px 60px 60px 15px; 
   display: inline-block;
   text-align: center;
-  color: #fff;
+  color: #0e496e;
   font-size: 16px;
   text-transform: uppercase;
   text-align: left;
@@ -1606,7 +1606,7 @@ Contact Style
   display: inline-block;
   text-align: center;
   line-height: 50px;
-  background-color: #0077B6;
+  background-color:  #ebeb1c;
   color: #fff;
   border-radius: 50%;
 }
