@@ -893,20 +893,20 @@ Banner Style
 
 /* 
 ---------------------------------------------
-Services Style
+Our Method Style
 --------------------------------------------- 
 */
 
-.services .service-item:hover .icon img {
+.ourMethod .service-item:hover .icon img {
   margin-top: -10px;
 }
 
-.services .service-item {
+.ourMethod .service-item {
   position: relative;
   margin-top: 95px;
 }
 
-.services .service-item .icon {
+.ourMethod .service-item .icon {
   width: 190px;
   height: 190px;
   display: inline-block;
@@ -919,12 +919,12 @@ Services Style
   top: -95px;
 }
 
-.services .service-item .icon img {
+.ourMethod .service-item .icon img {
   max-width: 86px;
   transition: all .2s;
 }
 
-.services .service-item .main-content {
+.ourMethod .service-item .main-content {
   border-radius: 25px;
   padding: 80px 30px 50px 30px;
   background-color: #CECDD9;
@@ -933,7 +933,7 @@ Services Style
   transition: all .4s;
 }
 
-.services .service-item h4 {
+.ourMethod .service-item h4 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -941,7 +941,7 @@ Services Style
   transition: all .4s;
 }
 
-.services .service-item p {
+.ourMethod .service-item p {
   color: #4a4a4a;
   margin-bottom: 25px;
 }
@@ -1885,7 +1885,7 @@ body {
     position: absolute;
     left: 65px;
   }
-  .services {
+  .ourMethod {
     margin-top: 80px;
   }
   .about-us {
@@ -1894,7 +1894,7 @@ body {
   .accordion {
     padding: 40px 25px 10px 25px;
   }
-  .services .service-item .icon {
+  .ourMethod .service-item .icon {
     width: 170px;
     height: 170px;
     line-height: 170px;
