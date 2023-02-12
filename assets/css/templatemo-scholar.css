@@ -1756,13 +1756,16 @@ footer p a {
 } */
 
 footer {
-  background-color: map-get($colores , "color-principal-normal");
+  background-color: #00B4D8;
   background-image: url(../images/stacked-waves-haikei.svg);
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+footer p, h5  {
+color:rgba(250, 250, 250, 0.95);
+}
 
 
 .whatsapp {
@@ -1775,16 +1778,16 @@ footer {
   justify-content: right;
   bottom: 1%;
   right: 1%;
-
-  & img {
-
-      width: 55px;
-      height: 55px;
-  }
 }
 
+.whatsapp img {
 
-footer p a:hover {
+  width: 70px;
+  height: 70px;
+  z-index: 1000;
+}
+
+/* footer p a:hover {
   opacity: 0.75;
 }
 
@@ -1800,7 +1803,7 @@ footer::before {
   content: '';
   z-index: 2;
 }
-
+ */
 /* 
 ---------------------------------------------
 Responsive Style
