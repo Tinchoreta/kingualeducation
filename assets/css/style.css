@@ -17,8 +17,9 @@ Table of contents
 06. features
 07. testimonials
 08. contact
-09. footer
-10. video modal style
+09. offers
+10. footer
+11. video modal style
 
 --------------------------------------------- */
 /* 
@@ -905,6 +906,7 @@ Our Method Style
 .ourMethod .ourMethod-item {
   position: relative;
   margin-top: 95px;
+  height: 100%;
 }
 
 .ourMethod .ourMethod-item .icon {
@@ -1018,7 +1020,7 @@ h2.accordion-header button {
   text-align: center;
   line-height: 30px;
   border-radius: 50%;
-  background-color: #0077B6;
+  background-color: #F78D58;
   color: #fff;
 }
 
@@ -1542,16 +1544,56 @@ Contact Style
   margin-top: 50px;
 }
 
-.contact-us .special-offer {
+/* 
+---------------------------------------------
+Offer Style
+--------------------------------------------- 
+*/
+
+.offers {
+  margin-top: 80px;
+  position: relative;
+  padding: 50px 0px;
+}
+
+.offers:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 65%;
+  height: 100%;
+  background-color: #cecdd9;
+  content: '';
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px;
+}
+
+.offers  .section-heading {
+  margin-bottom: 0px;
+  margin-left: 60px;
+  vertical-align: middle;
+}
+
+.offers  .section-heading p {
   margin-top: 50px;
-  background-color: #fff;
+}
+
+ .offers .special-offer {
+  position: absolute;
+  right:0px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ffffff;
   border-radius: 25px;
   padding: 30px 120px;
   display: inline-block;
   position: relative;
 }
 
-.contact-us .special-offer span.offer {
+.offers .special-offer span.offer {
   position: absolute;
   left: 0;
   top: 0;
@@ -1569,13 +1611,13 @@ Contact Style
   text-align: left;
 }
 
-.contact-us .special-offer span.offer em {
+.offers .special-offer span.offer em {
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
 }
 
-.contact-us .special-offer h6 {
+.offers .special-offer h6 {
   font-size: 15px;
   color: #4a4a4a;
   text-transform: uppercase;
@@ -1583,23 +1625,23 @@ Contact Style
   margin-bottom: 15px;
 }
 
-.contact-us .special-offer h6 em {
+.offers .special-offer h6 em {
   font-style: normal;
   color: #0077B6;
   font-weight: 600;
 }
 
-.contact-us .special-offer h4 {
+.offers .special-offer h4 {
   font-size: 22px;
   font-weight: 600;
 }
 
-.contact-us .special-offer h4 em {
+.offers .special-offer h4 em {
   font-style: normal;
   color: #0077B6;
 }
 
-.contact-us .special-offer a {
+.offers .special-offer a {
   position: absolute;
   right: 30px;
   top: 35px;
@@ -1957,12 +1999,15 @@ body {
   }
   .about-us::before,
   .testimonials::before,
-  .contact-us::before {
+  .contact-us::before,
+  .offers::before
+   {
     display: none;
   }
   .about-us .section-heading p,
   .testimonials .section-heading p,
-  .contact-us .section-heading p {
+  .contact-us .section-heading p, 
+  .offers .section-heading p  {
     margin-top: 30px;
   }
   .about-us .section-heading .main-button {
@@ -2053,16 +2098,16 @@ body {
   .contact-us .section-heading {
     margin-right: 0px;
   }
-  .contact-us .special-offer {
+  .special-offer {
     background-color: #CECDD9;
     margin-bottom: 60px;
     padding: 34px 30px 34px 100px;
     width: 100%;
   }
-  .contact-us .special-offer h4 {
+  .special-offer h4 {
     font-size: 17px;
   }
-  .contact-us .special-offer a {
+   .special-offer a {
     width: 40px;
     height: 40px;
     line-height: 40px;
