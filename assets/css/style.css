@@ -1917,6 +1917,27 @@ body {
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 480px) {
+
+  .whatsapp {
+
+    display: flex;
+    border: none;
+    cursor: pointer;
+    align-items: flex-end;
+    position: fixed;
+    justify-content: right;
+    bottom: 7%;
+    right: 5%;
+}
+
+.whatsapp img {
+
+    width: 52px;
+    height: 52px;
+}
+}
+
 @media (max-width: 767px) {
   .header-area {
     top: 0px;
@@ -1937,6 +1958,24 @@ body {
     display: inline-block;
     margin: 0px 10px;
   }
+
+  .whatsapp {
+
+    display: flex;
+    border: none;
+    cursor: pointer;
+    align-items: flex-end;
+    position: fixed;
+    justify-content: right;
+    bottom: 15%;
+    right: 7%;
+}
+
+.whatsapp img {
+
+    width: 45px;
+    height: 45px;
+}
 }
 
 @media (max-width: 992px) {
