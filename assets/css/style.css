@@ -563,8 +563,14 @@ Header Style
     display: flex
   }
 
+  nav a img {
+    width: 123px;
+    overflow: hidden;
+  
+  }
+
   img {
-    width: 100%x;
+    width: 100%;
     overflow: hidden;
   
   }
@@ -593,7 +599,7 @@ Header Style
 }
 
 .search-input{
-  padding: 0px 150px 20px;
+  padding: 0px 50px 20px;
 }
 
 .header-area .main-nav #search input {
