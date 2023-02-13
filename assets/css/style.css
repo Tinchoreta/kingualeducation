@@ -43,6 +43,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -74,9 +78,7 @@ header, nav, section, article, aside, footer, hgroup {
   display: block;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 html, body {
   font-family: 'Poppins', sans-serif;
@@ -1828,15 +1830,15 @@ color:rgba(250, 250, 250, 0.95);
   align-items: flex-end;
   position: fixed;
   justify-content: right;
-  bottom: 1%;
-  right: 1%;
+  bottom: 7%;
+  right: 4%;
   z-index: 10000000;
 }
 
 .whatsapp img {
 
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   z-index: 1000;
 }
 
