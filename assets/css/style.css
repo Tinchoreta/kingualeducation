@@ -1591,16 +1591,16 @@ Offer Style
 }
 
  .offers .special-offer {
-  position: absolute;
+  position: relative;
   right:0px;
-  margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #626560;
   border-radius: 25px;
   padding: 30px 120px;
   display: inline-block;
-  position: relative;
+  max-width: 100%;
 }
 
 .offers .special-offer span.offer {
@@ -2152,6 +2152,7 @@ body {
     margin-bottom: 60px;
     padding: 34px 30px 34px 100px;
     width: 100%;
+    max-width: 100%;
   }
   .special-offer h4 {
     font-size: 17px;
