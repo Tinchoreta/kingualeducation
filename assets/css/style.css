@@ -1592,10 +1592,6 @@ Offer Style
 
  .offers .special-offer {
   position: relative;
-  right:0px;
-  padding-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
   background-color: #626560;
   border-radius: 25px;
   padding: 30px 120px;
@@ -1887,8 +1883,9 @@ Video Modal Style
 
 .video-container .close{
 	position: absolute;
-	top: 10px; right: 25px;
-	font-size: 20px;
+	top: 25%; right: 10%;
+	font-size: 35px;
+  color:#1e1e1e;
 	cursor: pointer;
 }
 
