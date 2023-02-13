@@ -563,17 +563,19 @@ Header Style
     display: flex
   }
 
+  img {
+    width: 100%;
+    overflow: hidden;
+  
+  }
+
   nav a img {
     width: 123px;
     overflow: hidden;
   
   }
 
-  img {
-    width: 100%;
-    overflow: hidden;
-  
-  }
+
 
   .header-area .main-nav .nav li {
     padding-left: 2px;
@@ -1428,7 +1430,7 @@ Testimonials Style
 Events Style
 --------------------------------------------- 
 */
-
+/* 
 .events .section-heading {
   margin-bottom: 100px;
 }
@@ -1512,7 +1514,7 @@ Events Style
   color: #fff;
   border-radius: 60px 0px 0px 60px;
 }
-
+ */
 
 /* 
 ---------------------------------------------
