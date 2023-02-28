@@ -383,7 +383,7 @@ Header Style
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
-  font-size:x-large;
+  font-size: large;
   font-weight: 500;
   z-index: 999;
 }
@@ -677,7 +677,6 @@ Header Style
     line-height: 50px;
     height: 50px;
     font-weight: 400;
-    font-size: x-large;
     color: #1e1e1e;
     background-color: #CECDD9;
      border-radius: 0px 0px 25px 25px;
