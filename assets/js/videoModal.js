@@ -1,7 +1,7 @@
 const btnModal = document.querySelector('.btnModal');
 const videoContainer = document.querySelector('.video-container');
 const close = document.querySelector('.close');
-// const mainVideo = document.querySelector('#mainVideoPresentation');
+const mainVideo = document.querySelector('#mainVideoPresentation');
 
 btnModal.addEventListener('click',()=>{
     videoContainer.classList.add('show');
