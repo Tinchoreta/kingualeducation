@@ -909,6 +909,24 @@ Our Method Style
 --------------------------------------------- 
 */
 
+.ourMethod {
+  margin-top: 80px;
+}
+
+.ourMethod .container .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  
+  margin-bottom: 3rem;
+}
+
+.ourMethod .ourMethod-item .icon {
+  width: 170px;
+  height: 170px;
+  line-height: 170px;
+}
 .ourMethod .ourMethod-item:hover .icon img {
   margin-top: -10px;
 }
@@ -1826,15 +1844,15 @@ color:rgba(250, 250, 250, 0.95);
   align-items: flex-end;
   position: fixed;
   justify-content: right;
-  bottom: 7%;
-  right: 4%;
+  bottom: 5%;
+  right: 1%;
   z-index: 10000000;
 }
 
 .whatsapp img {
 
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   z-index: 1000;
 }
 
@@ -1966,8 +1984,8 @@ body {
     align-items: flex-end;
     position: fixed;
     justify-content: right;
-    bottom: 15%;
-    right: 7%;
+    bottom: 5%;
+    right: 4%;
 }
 
 .whatsapp img {
@@ -2025,20 +2043,14 @@ body {
     position: absolute;
     left: 65px;
   }
-  .ourMethod {
-    margin-top: 80px;
-  }
+
   .about-us {
     margin-top: 100px;
   }
   .accordion {
     padding: 40px 25px 10px 25px;
   }
-  .ourMethod .ourMethod-item .icon {
-    width: 170px;
-    height: 170px;
-    line-height: 170px;
-  }
+
   .about-us .section-heading {
     margin-left: 0px;
     margin-top: 120px;
