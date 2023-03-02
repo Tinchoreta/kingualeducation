@@ -563,6 +563,11 @@ Header Style
   color: #fff;
 }
 
+.header-text{
+  position:relative;
+  top: -50px;
+}
+
 .visible{
   display:inline !important;
 }
@@ -814,6 +819,7 @@ Banner Style
   border-radius: 25px;
   padding: 100px 100px;
   margin-left: 130px;
+  max-height: 550px;
 }
 
 .main-banner .item span.category {
@@ -830,7 +836,8 @@ Banner Style
 .main-banner .item h2 {
   font-size: 48px;
   font-weight: 700;
-  color: #fff;
+  color: #0077B6 ;
+  text-shadow: #1e1e1e 3px;
   line-height: 70px;
   width: 60%;
   margin-bottom: 40px;
@@ -843,7 +850,7 @@ Banner Style
 
 .main-banner .item .buttons {
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .main-banner .item .buttons .main-button {
@@ -905,7 +912,7 @@ Banner Style
 
 .main-banner .owl-nav .owl-prev i {
   position: absolute;
-  bottom: 65px;
+  bottom: 55px;
 }
 
 .main-banner .owl-nav .owl-prev i:hover,
@@ -2044,7 +2051,7 @@ body {
   .main-banner .owl-nav {
     left: 50% !important;
     transform: translateX(-60px) !important;
-    bottom: 60px;
+    bottom: 35px;
   }
   .main-banner .owl-nav .owl-prev i {
     bottom: 0px;
