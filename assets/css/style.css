@@ -2002,20 +2002,20 @@ body {
 
   .whatsapp {
 
-    display: flex;
+    display:block;
     border: none;
     cursor: pointer;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     position: fixed;
     justify-content: right;
-    bottom: 5%;
-    right: 4%;
+    bottom: 3%;
+    right: 7%;
 }
 
 .whatsapp img {
 
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
 }
 }
 
