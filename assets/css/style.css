@@ -565,7 +565,7 @@ Header Style
 
 .header-text{
   position:relative;
-  top: -50px;
+  top: -60px;
 }
 
 .visible{
@@ -590,7 +590,7 @@ Header Style
   }
 
   nav a img {
-    width: 123px;
+    width: 105px;
     overflow: hidden;
   
   }
@@ -830,14 +830,13 @@ Banner Style
   padding: 5px 15px;
   border-radius: 20px;
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .main-banner .item h2 {
   font-size: 48px;
   font-weight: 700;
-  color: #0077B6 ;
-  text-shadow: #1e1e1e 3px;
+  color: azure ;
   line-height: 70px;
   width: 60%;
   margin-bottom: 40px;
@@ -1328,8 +1327,11 @@ Team Style
 .team-member .main-content h4 {
   font-size: 22px;
   font-weight: 600;
-  margin-top: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.team-member .main-content .social-icons{
+  margin-top: 2rem;
 }
 
 .team-member .main-content ul li {
