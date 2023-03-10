@@ -572,6 +572,75 @@ Header Style
   display:inline !important;
 }
 
+@media (max-width: 1900px) {
+
+  header .container {
+    max-width: 1400px;
+    padding: 0px 15px 20px;
+  }
+  .header-area .main-nav {
+    background: transparent;
+    display: flex
+  }
+
+  img {
+    width: 100%;
+    overflow: hidden;
+  
+  }
+
+  nav a img {
+    position: relative;
+    top: -0.6em;
+    width: 150px;
+    height: 68px;
+    overflow: hidden;
+    
+  }
+
+  .header-area .main-nav .nav li {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .header-area .main-nav .nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .background-header .main-nav .logo  {
+  position: relative;
+  margin-top: 10px;
+  left: 10px;
+}
+
+.background-header .main-nav .logo img {
+  position: relative;
+  margin-top: 0px;
+  left: -8em;
+  padding: 0;
+  width: 163px;
+  height: 70px;
+}
+
+.search-input{
+  padding: 0px 50px 20px;
+}
+
+.header-area .main-nav #search input {
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 44px;
+  width: 450px;
+  border-radius: 23px;
+  border: none;
+  color: #FFFFFB;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 50px 0px;
+}
+
+
+}
+
 @media (max-width: 1600px) {
 
   header .container {
@@ -594,8 +663,6 @@ Header Style
     overflow: hidden;
   
   }
-
-
 
   .header-area .main-nav .nav li {
     padding-left: 2px;
@@ -856,6 +923,7 @@ Banner Style
   margin-right: 30px;
   border: 2px solid #0077B6;
   border-radius: 25px;
+  
 }
 
 .main-banner .item .buttons .main-button a {
@@ -870,6 +938,7 @@ Banner Style
   border-style:double;
   border-color: #0077B6;
   font-weight: 500;
+  width: 100%;
 }
 
 .main-banner .item .buttons .icon-button i {
@@ -879,8 +948,9 @@ Banner Style
   height: 50px;
   width: 50px;
   text-align: center;
-  line-height: 50px;
+  line-height: 42px;
   border-radius: 50%;
+  border-color: #0077B6;
   margin-right: 10px;
   font-size: 16px;
 }
@@ -1960,6 +2030,16 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+
+
+  nav a img {
+    position: relative;
+    top: 0;
+    width: 150px;
+    height: 68px;
+    overflow: hidden;
+    left: 10px;
+  }
 
   .whatsapp {
 

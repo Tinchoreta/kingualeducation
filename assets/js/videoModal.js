@@ -5,9 +5,7 @@ const mainVideo = document.querySelector('#mainVideoPresentation');
 
 btnModal.addEventListener('click',()=>{
     videoContainer.classList.add('show');
-    
-    // close.style.bottom = String(ObtenerBottom(videoContainer) + 50).concat("px") ;
-    // close.style.right = String(ObtenerRight(videoContainer) + 50).concat("px");
+
 })
 
 close.addEventListener('click',()=>{
