@@ -717,7 +717,7 @@ Header Style
   .header-area .main-nav .logo {
     position: absolute;
     left: 30px;
-    top: 0px;
+    top: -.7em;
   }
   .background-header .main-nav .logo {
     top: 0px;
@@ -854,6 +854,8 @@ Banner Style
 
 .main-banner .item .buttons .main-button {
   margin-right: 30px;
+  border: 2px solid #0077B6;
+  border-radius: 25px;
 }
 
 .main-banner .item .buttons .main-button a {
@@ -865,6 +867,8 @@ Banner Style
   line-height: 50px;
   padding: 0px 25px;
   border-radius: 25px;
+  border-style:double;
+  border-color: #0077B6;
   font-weight: 500;
 }
 
