@@ -565,7 +565,7 @@ Header Style
 
 .header-text{
   position:relative;
-  top: -60px;
+  top: -65px;
 }
 
 .visible{
@@ -839,7 +839,7 @@ Banner Style
   color: azure ;
   line-height: 70px;
   width: 60%;
-  margin-bottom: 40px;
+  margin-bottom: .5em;
 }
 
 .main-banner .item p {
@@ -1902,7 +1902,8 @@ Video Modal Style
 
 .btnModal{
 
-	box-shadow: 0 10px 40px rgba(255,122,0,0.4);
+	box-shadow: 0 10px 40px rgba(179, 178, 177, 0.4);
+  text-shadow: 1px 1px 2px black;
 }
 
 .video-container{
@@ -2041,10 +2042,11 @@ body {
   .main-banner .item h2,
   .main-banner .item p {
     width: 100%;
+    text-shadow: 1px 1px 2px black;
   }
   .main-banner .item h2 {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 40px;
   }
   .main-banner .item .buttons {
     display: inline-block;
