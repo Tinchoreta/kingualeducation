@@ -912,7 +912,9 @@ Banner Style
 .main-banner .item p {
   color: #fff;
   width: 65%;
-}
+  text-shadow: 1px 1px 2px black;
+  }
+
 
 .main-banner .item .buttons {
   display: flex;
@@ -938,7 +940,7 @@ Banner Style
   border-style:double;
   border-color: #0077B6;
   font-weight: 500;
-  width: 100%;
+  
 }
 
 .main-banner .item .buttons .icon-button i {
