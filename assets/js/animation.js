@@ -96,4 +96,18 @@ highlightedDivs.forEach((el) => {
 
   
 
+const appearRightObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+       
+        if (entry.isIntersecting) {
+            entry.target.classList.add( 'showRight' );
+            
+        }
+        else {
+            entry.target.classList.remove( 'showRight' );
+        }
+    }); 
+});
 
+const hiddenRightElements = document.querySelectorAll('.hiddenRight');
+hiddenRightElements.forEach((el) => appearRightObserver.observe(el));
