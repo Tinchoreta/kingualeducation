@@ -2218,6 +2218,7 @@ body {
   nav a img {
     position: relative;
     top: 0px;
+    left: .2em;
     width: 140px;
     height: 63px;
     overflow: hidden;

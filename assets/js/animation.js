@@ -15,41 +15,85 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => appearObserver.observe(el));
 
 
-// const glowObserver = new IntersectionObserver((entries) => {
-//     entries.forEach((entry) => {
-       
-//         if (entry.isIntersecting) {
-//             entry.target.classList.add( 'glow' );
-            
-//         }
-//         else {
-//             entry.target.classList.remove( 'glow' );
-//         }
-//     }); 
-// });
 
-// const glowElement = document.querySelectorAll('.glow');
-// glowElement.forEach((el) => glowObserver.observe(el));
+// Resaltar botones cuándo sean visibles (.IntersectionObserver)
 
-
-const button = document.getElementById('my-button');
-const observer = new IntersectionObserver(entries => {
+const highlightObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
+
+      setTimeout(() => {
+        
+      
         if (entry.isIntersecting) {
 
 
-            button.classList.add('highlight');
+            entry.target.classList.add('highlight');
 
 
             setTimeout(() => {
                 
-                button.classList.remove('highlight');
-            }, 3000);
+                entry.target.classList.remove('highlight');
+            }, 2000);
         } else {
             
-            button.classList.remove('highlight');
+            entry.target.classList.remove('highlight');
         }
+    }, 1500);
     });
 });
 
-observer.observe(button);
+const highlightedButtons = document.querySelectorAll('.highlightButton');
+
+highlightedButtons.forEach((el) => {
+
+
+        highlightObserver.observe(el)
+
+});
+
+
+
+// Resaltar divs cuándo sean visibles (.IntersectionObserver)
+
+const highlightDivObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+
+      setTimeout(() => {
+        
+      
+        if (entry.isIntersecting) {
+
+
+            entry.target.classList.add('highlightDiv');
+            
+
+            setTimeout(() => {
+                
+                entry.target.classList.remove('highlightDiv');
+            }, 2000);
+
+            
+
+        } else {
+            
+            entry.target.classList.remove('highlightDiv');
+        }
+    }, 1500);
+    
+   
+
+    });
+});
+
+const highlightedDivs = document.querySelectorAll('.highlightDiv');
+
+highlightedDivs.forEach((el) => {
+
+
+        highlightDivObserver.observe(el)
+
+});
+
+  
+
+
