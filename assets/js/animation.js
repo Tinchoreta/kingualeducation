@@ -21,24 +21,26 @@ hiddenElements.forEach((el) => appearObserver.observe(el));
 const highlightObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
 
-      setTimeout(() => {
-        
-      
-        if (entry.isIntersecting) {
+        setTimeout(() => {
 
 
-            entry.target.classList.add('highlight');
+            if (entry.isIntersecting) {
+
+                if (entry.target.classList.contains('collapsed')) {
+                    
+                    entry.target.classList.add('highlight')
 
 
-            setTimeout(() => {
-                
+                    setTimeout(() => {
+
+                        entry.target.classList.remove('highlight');
+                    }, 2000);
+                }
+            } else {
+
                 entry.target.classList.remove('highlight');
-            }, 2000);
-        } else {
-            
-            entry.target.classList.remove('highlight');
-        }
-    }, 1500);
+            }
+        }, 1500);
     });
 });
 
