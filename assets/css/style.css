@@ -761,7 +761,7 @@ Header Style
 
   .background-header .main-nav .logo img {
     position: relative;
-    margin-top: 0px;
+    margin-top: .5em;
     left: -8em;
     padding: 0;
     width: 163px;
@@ -829,7 +829,7 @@ Header Style
   }
 
   .background-header .main-nav .logo img {
-    margin-top: 0px;
+    margin-top: .3em;
     left: 0px;
     padding: 0;
     width: 123px;
@@ -872,7 +872,7 @@ Header Style
   }
 
   .background-header .main-nav .logo img {
-    margin-top: 0px;
+    margin-top: .5em;
     left: 20px;
     padding: 0;
     width: 100px;
@@ -2554,7 +2554,7 @@ body {
   }
 
   .background-header .main-nav .logo img {
-    margin-top: 2px;
+    margin-top: .5em;
     left: 20px;
     padding: 0;
     width: 135px;
