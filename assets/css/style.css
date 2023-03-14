@@ -1023,6 +1023,8 @@ Header Style
     padding-right: 0px !important;
   }
 
+
+
 }
 
 /* 
@@ -2233,6 +2235,16 @@ body {
   .event_filter li {
     display: inline-block;
     margin: 0px 10px;
+  }
+
+  .ourMethod .container .ourMethodTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: #0077B6;
   }
 
   .whatsapp {
