@@ -644,7 +644,7 @@ Header Style
   display: inline !important;
 }
 
-@media (max-width: 2100px) {
+@media (max-width: 2200px) {
 
   header .container {
     max-width: 1400px;
@@ -665,7 +665,7 @@ Header Style
   nav a img {
     position: relative;
     top: -0.6em;
-    left: -110px;
+    left: 1em;
     width: 160px;
     height: 70px;
     overflow: hidden;
@@ -737,8 +737,9 @@ Header Style
   nav a img {
     position: relative;
     top: -0.6em;
-    width: 150px;
-    height: 68px;
+    left: -2em;
+    width: 120px;
+    height: 48px;
     overflow: hidden;
 
   }
@@ -830,7 +831,7 @@ Header Style
 
   .background-header .main-nav .logo img {
     margin-top: .3em;
-    left: 0px;
+    left:1em;
     padding: 0;
     width: 123px;
     height: 65px;
@@ -2066,29 +2067,7 @@ Offer Style
 Footer Style
 --------------------------------------------- 
 */
-/* 
-footer {
-  margin-top: 150px;
-  position: relative;
-  background-color: #0077B6;
-  vertical-align: middle;
-  min-height: 150px;
-  border-radius: 150px 150px 0px 0px;
-}
 
-footer p {
-  text-align: center;
-  line-height: 150px;
-  color: #fff;
-  font-weight: 400;
-}
-
-footer p a {
-  color: #fff;
-  transition: all .3s;
-  position: relative;
-  z-index: 3;
-} */
 
 footer {
   background-color: #00B4D8;
@@ -2112,37 +2091,20 @@ h5 {
   align-items: flex-end;
   position: fixed;
   justify-content: right;
-  bottom: 5%;
-  right: 1%;
+  bottom: 5%;  
+  right: 3%;
   z-index: 10000000;
 }
 
 .whatsapp img {
 
-  width: 80px;
-  height: 80px;
-  z-index: 1000;
+  width: 100px;
+  height: 100px;
+  
+
 }
 
-/* footer p a:hover {
-  opacity: 0.75;
-}
 
-footer::before {
-  background: url(../images/contact-dec-01.png);
-  position: absolute;
-  left: 30px;
-  transform: rotate(180deg);
-  opacity: 1;
-  bottom: 0;
-  width: 318px;
-  height: 119px;
-  content: '';
-  z-index: 2;
-}
- */
-
-/* 
 ---------------------------------------------
 Video Modal Style
 --------------------------------------------- 
@@ -2227,20 +2189,19 @@ body {
 
   .whatsapp {
 
-    display: flex;
+    display: block;
     border: none;
     cursor: pointer;
-    align-items: flex-end;
     position: fixed;
     justify-content: right;
-    top: 88%;
-    right: 5%;
+    bottom: 5%;
+    right: 8%;
   }
 
   .whatsapp img {
 
-    width: 72px;
-    height: 72px;
+    width: 90px;
+    height: 90px;
   }
 
   .testimonials .owl-nav {
@@ -2282,14 +2243,14 @@ body {
     position: fixed;
     justify-content: right;
     bottom: 3%;
-    right: 7%;
-    z-index: 100000;
+    right: 6%;
+    
   }
 
   .whatsapp img {
 
-    width: 72px;
-    height: 72px;
+    width: 120px;
+    height: 120px;
   }
 }
 
